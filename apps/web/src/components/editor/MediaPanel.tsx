@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { Film, Music, Image, Plus, Trash2, ArrowRight } from "lucide-react";
-import { useEditorStore, MediaItem, MediaType } from "../../store/editor";
+import { useEditorStore } from "../../store/editor";
+import type { MediaItem, MediaType } from "../../store/editor";
 import { Button } from "../ui/button";
 import { ScrollArea } from "../ui/scroll-area";
 
